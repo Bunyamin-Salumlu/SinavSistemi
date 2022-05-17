@@ -42,6 +42,7 @@ namespace SinavSistemi
             this.btnABilgileriniGör.TabIndex = 0;
             this.btnABilgileriniGör.Text = "Bilgilerini Gör";
             this.btnABilgileriniGör.UseVisualStyleBackColor = true;
+            this.btnABilgileriniGör.Click += new System.EventHandler(this.btnABilgileriniGör_Click);
             // 
             // btnASorumluOnay
             // 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace SinavSistemi
 {
@@ -22,6 +23,14 @@ namespace SinavSistemi
             FrmSorumluOnayBilgileri onayBilgileri = new FrmSorumluOnayBilgileri();
             onayBilgileri.Show();
             this.Hide();
+        }
+
+        private void btnABilgileriniGör_Click(object sender, EventArgs e)
+        {
+            FrmAdminBilgisi adminBilgisi = new FrmAdminBilgisi();
+            adminBilgisi.Show();
+            this.Hide();
+            MessageBox.Show("Tc kimlik numaranızı girerek bilgilerinizi görebilirsiniz.!");
         }
     }
 }

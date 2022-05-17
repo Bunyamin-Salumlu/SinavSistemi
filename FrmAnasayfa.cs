@@ -54,6 +54,7 @@ namespace SinavSistemi
             FrmKullaniciBilgisi kullanici = new FrmKullaniciBilgisi();
             kullanici.Show();
             this.Hide();
+            MessageBox.Show("Tc kimlik numaranızı girerek bilgilerinizi görebilirsiniz.!");
         }
 
         private void toolStrpMnItmSiralama_Click(object sender, EventArgs e)

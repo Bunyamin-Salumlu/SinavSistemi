@@ -23,5 +23,13 @@ namespace SinavSistemi
             soruEkle.Show();
             this.Hide();
         }
+
+        private void btnSBilgileriniGor_Click(object sender, EventArgs e)
+        {
+            FrmSorumluBilgisi sorumluBilgisi = new FrmSorumluBilgisi();
+            sorumluBilgisi.Show();
+            this.Hide();
+            MessageBox.Show("Tc kimlik numaranızı girerek bilgilerinizi görebilirsiniz.!");
+        }
     }
 }

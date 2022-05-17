@@ -30,104 +30,108 @@ namespace SinavSistemi
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmKullaniciBilgisi));
-            this.lblKAd = new System.Windows.Forms.Label();
-            this.lblKSoyad = new System.Windows.Forms.Label();
-            this.lblKKullaniciAdi = new System.Windows.Forms.Label();
-            this.lblKMail = new System.Windows.Forms.Label();
-            this.txtbxKKullaniciAdi = new System.Windows.Forms.TextBox();
-            this.txtbxKAd = new System.Windows.Forms.TextBox();
-            this.txtbxKSoyad = new System.Windows.Forms.TextBox();
-            this.txtbxKMail = new System.Windows.Forms.TextBox();
-            this.txtbxKKullaniciTipi = new System.Windows.Forms.TextBox();
-            this.lblKKullaniciTipi = new System.Windows.Forms.Label();
+            this.lblKBAd = new System.Windows.Forms.Label();
+            this.lblKBSoyad = new System.Windows.Forms.Label();
+            this.lblKBKullaniciAdi = new System.Windows.Forms.Label();
+            this.lblKBMail = new System.Windows.Forms.Label();
+            this.txtbxKBTckNo = new System.Windows.Forms.TextBox();
+            this.txtbxKBAd = new System.Windows.Forms.TextBox();
+            this.txtbxKBSoyad = new System.Windows.Forms.TextBox();
+            this.txtbxKBMail = new System.Windows.Forms.TextBox();
+            this.txtbxKBKullaniciTipi = new System.Windows.Forms.TextBox();
+            this.lblKBKullaniciTipi = new System.Windows.Forms.Label();
             this.pctrbxKBGeri = new System.Windows.Forms.PictureBox();
+            this.lblKBTckNo = new System.Windows.Forms.Label();
+            this.txtbxKBKullaniciAdi = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxKBGeri)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblKAd
+            // lblKBAd
             // 
-            this.lblKAd.AutoSize = true;
-            this.lblKAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKAd.Location = new System.Drawing.Point(143, 53);
-            this.lblKAd.Name = "lblKAd";
-            this.lblKAd.Size = new System.Drawing.Size(31, 15);
-            this.lblKAd.TabIndex = 0;
-            this.lblKAd.Text = "Ad :";
+            this.lblKBAd.AutoSize = true;
+            this.lblKBAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBAd.Location = new System.Drawing.Point(114, 90);
+            this.lblKBAd.Name = "lblKBAd";
+            this.lblKBAd.Size = new System.Drawing.Size(31, 15);
+            this.lblKBAd.TabIndex = 0;
+            this.lblKBAd.Text = "Ad :";
             // 
-            // lblKSoyad
+            // lblKBSoyad
             // 
-            this.lblKSoyad.AutoSize = true;
-            this.lblKSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKSoyad.Location = new System.Drawing.Point(120, 88);
-            this.lblKSoyad.Name = "lblKSoyad";
-            this.lblKSoyad.Size = new System.Drawing.Size(54, 15);
-            this.lblKSoyad.TabIndex = 1;
-            this.lblKSoyad.Text = "Soyad :";
+            this.lblKBSoyad.AutoSize = true;
+            this.lblKBSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBSoyad.Location = new System.Drawing.Point(91, 125);
+            this.lblKBSoyad.Name = "lblKBSoyad";
+            this.lblKBSoyad.Size = new System.Drawing.Size(54, 15);
+            this.lblKBSoyad.TabIndex = 1;
+            this.lblKBSoyad.Text = "Soyad :";
             // 
-            // lblKKullaniciAdi
+            // lblKBKullaniciAdi
             // 
-            this.lblKKullaniciAdi.AutoSize = true;
-            this.lblKKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKKullaniciAdi.Location = new System.Drawing.Point(79, 23);
-            this.lblKKullaniciAdi.Name = "lblKKullaniciAdi";
-            this.lblKKullaniciAdi.Size = new System.Drawing.Size(95, 15);
-            this.lblKKullaniciAdi.TabIndex = 2;
-            this.lblKKullaniciAdi.Text = "Kullanıcı Adı :";
+            this.lblKBKullaniciAdi.AutoSize = true;
+            this.lblKBKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBKullaniciAdi.Location = new System.Drawing.Point(50, 60);
+            this.lblKBKullaniciAdi.Name = "lblKBKullaniciAdi";
+            this.lblKBKullaniciAdi.Size = new System.Drawing.Size(95, 15);
+            this.lblKBKullaniciAdi.TabIndex = 2;
+            this.lblKBKullaniciAdi.Text = "Kullanıcı Adı :";
             // 
-            // lblKMail
+            // lblKBMail
             // 
-            this.lblKMail.AutoSize = true;
-            this.lblKMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKMail.Location = new System.Drawing.Point(131, 120);
-            this.lblKMail.Name = "lblKMail";
-            this.lblKMail.Size = new System.Drawing.Size(43, 15);
-            this.lblKMail.TabIndex = 3;
-            this.lblKMail.Text = "Mail :";
+            this.lblKBMail.AutoSize = true;
+            this.lblKBMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBMail.Location = new System.Drawing.Point(102, 157);
+            this.lblKBMail.Name = "lblKBMail";
+            this.lblKBMail.Size = new System.Drawing.Size(43, 15);
+            this.lblKBMail.TabIndex = 3;
+            this.lblKBMail.Text = "Mail :";
             // 
-            // txtbxKKullaniciAdi
+            // txtbxKBTckNo
             // 
-            this.txtbxKKullaniciAdi.Location = new System.Drawing.Point(180, 22);
-            this.txtbxKKullaniciAdi.Name = "txtbxKKullaniciAdi";
-            this.txtbxKKullaniciAdi.Size = new System.Drawing.Size(132, 20);
-            this.txtbxKKullaniciAdi.TabIndex = 4;
+            this.txtbxKBTckNo.Location = new System.Drawing.Point(145, 18);
+            this.txtbxKBTckNo.MaxLength = 11;
+            this.txtbxKBTckNo.Name = "txtbxKBTckNo";
+            this.txtbxKBTckNo.Size = new System.Drawing.Size(138, 20);
+            this.txtbxKBTckNo.TabIndex = 4;
+            this.txtbxKBTckNo.TextChanged += new System.EventHandler(this.txtbxKBTckNo_TextChanged);
             // 
-            // txtbxKAd
+            // txtbxKBAd
             // 
-            this.txtbxKAd.Location = new System.Drawing.Point(180, 52);
-            this.txtbxKAd.Name = "txtbxKAd";
-            this.txtbxKAd.Size = new System.Drawing.Size(132, 20);
-            this.txtbxKAd.TabIndex = 5;
+            this.txtbxKBAd.Location = new System.Drawing.Point(151, 89);
+            this.txtbxKBAd.Name = "txtbxKBAd";
+            this.txtbxKBAd.Size = new System.Drawing.Size(132, 20);
+            this.txtbxKBAd.TabIndex = 5;
             // 
-            // txtbxKSoyad
+            // txtbxKBSoyad
             // 
-            this.txtbxKSoyad.Location = new System.Drawing.Point(180, 87);
-            this.txtbxKSoyad.Name = "txtbxKSoyad";
-            this.txtbxKSoyad.Size = new System.Drawing.Size(132, 20);
-            this.txtbxKSoyad.TabIndex = 6;
+            this.txtbxKBSoyad.Location = new System.Drawing.Point(151, 124);
+            this.txtbxKBSoyad.Name = "txtbxKBSoyad";
+            this.txtbxKBSoyad.Size = new System.Drawing.Size(132, 20);
+            this.txtbxKBSoyad.TabIndex = 6;
             // 
-            // txtbxKMail
+            // txtbxKBMail
             // 
-            this.txtbxKMail.Location = new System.Drawing.Point(180, 119);
-            this.txtbxKMail.Name = "txtbxKMail";
-            this.txtbxKMail.Size = new System.Drawing.Size(132, 20);
-            this.txtbxKMail.TabIndex = 7;
+            this.txtbxKBMail.Location = new System.Drawing.Point(151, 156);
+            this.txtbxKBMail.Name = "txtbxKBMail";
+            this.txtbxKBMail.Size = new System.Drawing.Size(132, 20);
+            this.txtbxKBMail.TabIndex = 7;
             // 
-            // txtbxKKullaniciTipi
+            // txtbxKBKullaniciTipi
             // 
-            this.txtbxKKullaniciTipi.Location = new System.Drawing.Point(180, 153);
-            this.txtbxKKullaniciTipi.Name = "txtbxKKullaniciTipi";
-            this.txtbxKKullaniciTipi.Size = new System.Drawing.Size(132, 20);
-            this.txtbxKKullaniciTipi.TabIndex = 8;
+            this.txtbxKBKullaniciTipi.Location = new System.Drawing.Point(151, 190);
+            this.txtbxKBKullaniciTipi.Name = "txtbxKBKullaniciTipi";
+            this.txtbxKBKullaniciTipi.Size = new System.Drawing.Size(132, 20);
+            this.txtbxKBKullaniciTipi.TabIndex = 8;
             // 
-            // lblKKullaniciTipi
+            // lblKBKullaniciTipi
             // 
-            this.lblKKullaniciTipi.AutoSize = true;
-            this.lblKKullaniciTipi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKKullaniciTipi.Location = new System.Drawing.Point(52, 154);
-            this.lblKKullaniciTipi.Name = "lblKKullaniciTipi";
-            this.lblKKullaniciTipi.Size = new System.Drawing.Size(122, 15);
-            this.lblKKullaniciTipi.TabIndex = 9;
-            this.lblKKullaniciTipi.Text = "Kullanıcı Tipiniz : ";
+            this.lblKBKullaniciTipi.AutoSize = true;
+            this.lblKBKullaniciTipi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBKullaniciTipi.Location = new System.Drawing.Point(23, 191);
+            this.lblKBKullaniciTipi.Name = "lblKBKullaniciTipi";
+            this.lblKBKullaniciTipi.Size = new System.Drawing.Size(122, 15);
+            this.lblKBKullaniciTipi.TabIndex = 9;
+            this.lblKBKullaniciTipi.Text = "Kullanıcı Tipiniz : ";
             // 
             // pctrbxKBGeri
             // 
@@ -140,22 +144,41 @@ namespace SinavSistemi
             this.pctrbxKBGeri.TabStop = false;
             this.pctrbxKBGeri.Click += new System.EventHandler(this.pctrbxKBGeri_Click);
             // 
+            // lblKBTckNo
+            // 
+            this.lblKBTckNo.AutoSize = true;
+            this.lblKBTckNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKBTckNo.Location = new System.Drawing.Point(84, 19);
+            this.lblKBTckNo.Name = "lblKBTckNo";
+            this.lblKBTckNo.Size = new System.Drawing.Size(55, 15);
+            this.lblKBTckNo.TabIndex = 14;
+            this.lblKBTckNo.Text = "TckNo :";
+            // 
+            // txtbxKBKullaniciAdi
+            // 
+            this.txtbxKBKullaniciAdi.Location = new System.Drawing.Point(151, 59);
+            this.txtbxKBKullaniciAdi.Name = "txtbxKBKullaniciAdi";
+            this.txtbxKBKullaniciAdi.Size = new System.Drawing.Size(132, 20);
+            this.txtbxKBKullaniciAdi.TabIndex = 13;
+            // 
             // FrmKullaniciBilgisi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 198);
+            this.ClientSize = new System.Drawing.Size(382, 251);
+            this.Controls.Add(this.lblKBTckNo);
+            this.Controls.Add(this.txtbxKBKullaniciAdi);
             this.Controls.Add(this.pctrbxKBGeri);
-            this.Controls.Add(this.lblKKullaniciTipi);
-            this.Controls.Add(this.txtbxKKullaniciTipi);
-            this.Controls.Add(this.txtbxKMail);
-            this.Controls.Add(this.txtbxKSoyad);
-            this.Controls.Add(this.txtbxKAd);
-            this.Controls.Add(this.txtbxKKullaniciAdi);
-            this.Controls.Add(this.lblKMail);
-            this.Controls.Add(this.lblKKullaniciAdi);
-            this.Controls.Add(this.lblKSoyad);
-            this.Controls.Add(this.lblKAd);
+            this.Controls.Add(this.lblKBKullaniciTipi);
+            this.Controls.Add(this.txtbxKBKullaniciTipi);
+            this.Controls.Add(this.txtbxKBMail);
+            this.Controls.Add(this.txtbxKBSoyad);
+            this.Controls.Add(this.txtbxKBAd);
+            this.Controls.Add(this.txtbxKBTckNo);
+            this.Controls.Add(this.lblKBMail);
+            this.Controls.Add(this.lblKBKullaniciAdi);
+            this.Controls.Add(this.lblKBSoyad);
+            this.Controls.Add(this.lblKBAd);
             this.Name = "FrmKullaniciBilgisi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kullanıcı Bilgisi";
@@ -167,16 +190,18 @@ namespace SinavSistemi
 
         #endregion
 
-        private System.Windows.Forms.Label lblKAd;
-        private System.Windows.Forms.Label lblKSoyad;
-        private System.Windows.Forms.Label lblKKullaniciAdi;
-        private System.Windows.Forms.Label lblKMail;
-        private System.Windows.Forms.TextBox txtbxKKullaniciAdi;
-        private System.Windows.Forms.TextBox txtbxKAd;
-        private System.Windows.Forms.TextBox txtbxKSoyad;
-        private System.Windows.Forms.TextBox txtbxKMail;
-        private System.Windows.Forms.TextBox txtbxKKullaniciTipi;
-        private System.Windows.Forms.Label lblKKullaniciTipi;
+        private System.Windows.Forms.Label lblKBAd;
+        private System.Windows.Forms.Label lblKBSoyad;
+        private System.Windows.Forms.Label lblKBKullaniciAdi;
+        private System.Windows.Forms.Label lblKBMail;
+        private System.Windows.Forms.TextBox txtbxKBTckNo;
+        private System.Windows.Forms.TextBox txtbxKBAd;
+        private System.Windows.Forms.TextBox txtbxKBSoyad;
+        private System.Windows.Forms.TextBox txtbxKBMail;
+        private System.Windows.Forms.TextBox txtbxKBKullaniciTipi;
+        private System.Windows.Forms.Label lblKBKullaniciTipi;
         private System.Windows.Forms.PictureBox pctrbxKBGeri;
+        private System.Windows.Forms.Label lblKBTckNo;
+        private System.Windows.Forms.TextBox txtbxKBKullaniciAdi;
     }
 }

@@ -82,6 +82,7 @@ namespace SinavSistemi
             // 
             this.txtbxSGSifre.Location = new System.Drawing.Point(176, 62);
             this.txtbxSGSifre.Name = "txtbxSGSifre";
+            this.txtbxSGSifre.PasswordChar = '●';
             this.txtbxSGSifre.Size = new System.Drawing.Size(126, 20);
             this.txtbxSGSifre.TabIndex = 4;
             // 
@@ -89,6 +90,7 @@ namespace SinavSistemi
             // 
             this.txtbxSGSifreTekrar.Location = new System.Drawing.Point(176, 97);
             this.txtbxSGSifreTekrar.Name = "txtbxSGSifreTekrar";
+            this.txtbxSGSifreTekrar.PasswordChar = '●';
             this.txtbxSGSifreTekrar.Size = new System.Drawing.Size(126, 20);
             this.txtbxSGSifreTekrar.TabIndex = 5;
             // 

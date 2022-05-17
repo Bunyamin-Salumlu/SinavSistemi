@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAdminBilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminBilgisi.Designer.cs">
+      <DependentUpon>FrmAdminBilgisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAdminSayfasi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,12 @@
     <Compile Include="FrmKonuDagilimi.Designer.cs">
       <DependentUpon>FrmKonuDagilimi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSorumluBilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSorumluBilgisi.Designer.cs">
+      <DependentUpon>FrmSorumluBilgisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSorumluOnayBilgileri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +141,9 @@
       <DependentUpon>FrmSorumluSayfası.cs</DependentUpon>
     </Compile>
     <Compile Include="SifreGuncelleme.cs" />
+    <EmbeddedResource Include="FrmAdminBilgisi.resx">
+      <DependentUpon>FrmAdminBilgisi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAdminSayfasi.resx">
       <DependentUpon>FrmAdminSayfasi.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmKonuDagilimi.resx">
       <DependentUpon>FrmKonuDagilimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSorumluBilgisi.resx">
+      <DependentUpon>FrmSorumluBilgisi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSorumluOnayBilgileri.resx">
       <DependentUpon>FrmSorumluOnayBilgileri.cs</DependentUpon>

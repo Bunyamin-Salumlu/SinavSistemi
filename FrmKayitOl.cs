@@ -17,13 +17,11 @@ namespace SinavSistemi
         {
             InitializeComponent();
         }
-        SqlConnection Baglanti;
-        SqlCommand komut;
-        SqlDataReader dr;
 
         private void btnKKaydet_Click(object sender, EventArgs e)
         {
             KullaniciEkleme kullaniciEkleme = new KullaniciEkleme();
+            kullaniciEkleme.TckNo = txtbxKTckNo.Text;
             kullaniciEkleme.KullaniciAdi = txtbxKKullaniciAdi.Text;
             kullaniciEkleme.Ad = txtbxKAd.Text;
             kullaniciEkleme.Soyad = txtbxKSoyad.Text;
@@ -33,7 +31,7 @@ namespace SinavSistemi
 
             if (cmbxKKullaniciTipi.Text == "Admin")
             {
-                
+                MessageBox.Show("Birden fazla Admin kaydı yapılamaz.! ");
             }
             else if(cmbxKKullaniciTipi.Text=="Sorumlu")
             {

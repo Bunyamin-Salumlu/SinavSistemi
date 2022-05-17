@@ -62,7 +62,6 @@ namespace SinavSistemi
                 }
 
                 SqlCommand komut = new SqlCommand();
-                // SqlCommand komut = new SqlCommand("select * from KullaniciKayit  where Mail='" + txtMail.Text + "'");
                 komut.CommandText = "select * from KullaniciKayit  where Mail='" + txtSMail.Text + "'";
                 komut.Connection = baglanti;
                 SqlDataReader oku = komut.ExecuteReader();
@@ -75,7 +74,7 @@ namespace SinavSistemi
                     lblSBilgi.Visible = true;
                     lblSBilgi.ForeColor = Color.Green;
                     lblSBilgi.Text = "Girmiş Olduğunuz Bilgiler Uyuşuyor Şifreniz Mail Olarak Gönderildi";
-                    MessageBox.Show("Giris yapabilirsiniz");
+                    MessageBox.Show("Mailinize şifreniz gönderildi bakınız. Sonra giriş yapabilirsiniz.!");
                         
                     FrmGiris giris = new FrmGiris();
                     giris.Show();

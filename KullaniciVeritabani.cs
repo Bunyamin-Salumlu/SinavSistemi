@@ -20,14 +20,14 @@ namespace SinavSistemi
             Baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
         }
 
-        public void OgrenciEkle(string kullaniciadi, string ad, string soyad, string mail, string sifre, string kullanicitipi, string ogrencionayi)
+        public void OgrenciEkle(string tckno, string kullaniciadi, string ad, string soyad, string mail, string sifre, string kullanicitipi, string ogrencionayi)
         {
             int kayitlimi = 0;
 
             komut = new SqlCommand();
             komut.Connection = Baglanti;
             Baglanti.Open();
-            komut.CommandText = "select KullaniciAdi, Ad, Soyad, Mail, Sifre, KullaniciTipi, Onay from KullaniciKayit where KullaniciAdi='" + kullaniciadi + "' and Ad='" + ad + "' and Soyad='" + soyad + "' and Mail='" + mail + "'and Sifre='" + sifre + "'and KullaniciTipi='" + kullanicitipi + "'and Onay='" + ogrencionayi + "'";
+            komut.CommandText = "select TckNo, KullaniciAdi, Ad, Soyad, Mail, Sifre, KullaniciTipi, Onay from KullaniciKayit where TckNo='" + tckno + "'and KullaniciAdi='" + kullaniciadi + "' and Ad='" + ad + "' and Soyad='" + soyad + "' and Mail='" + mail + "'and Sifre='" + sifre + "'and KullaniciTipi='" + kullanicitipi + "'and Onay='" + ogrencionayi + "'";
             dr = komut.ExecuteReader();
 
             if (dr.Read())//Kullanıcı bulunduysa kayıtlı demektir.
@@ -45,20 +45,20 @@ namespace SinavSistemi
                 komut.Connection = Baglanti;
                 Baglanti.Open();
 
-                komut.CommandText = "insert into KullaniciKayit(KullaniciAdi,Ad,Soyad,Mail,Sifre,KullaniciTipi,Onay) values('" + kullaniciadi + "','" + ad + "','" + soyad + "', '" + mail + "','" + sifre + "','" + kullanicitipi + "','" + ogrencionayi + "')";
+                komut.CommandText = "insert into KullaniciKayit(TckNo,KullaniciAdi,Ad,Soyad,Mail,Sifre,KullaniciTipi,Onay) values('" + tckno + "','" + kullaniciadi + "','" + ad + "','" + soyad + "', '" + mail + "','" + sifre + "','" + kullanicitipi + "','" + ogrencionayi + "')";
                 komut.ExecuteNonQuery();
                 Baglanti.Close();
                 System.Windows.Forms.MessageBox.Show("Kaydınız başarıyla yapıldı.");
             }
         }
 
-        public void SorumluEkle(string kullaniciadi, string ad, string soyad, string mail, string sifre, string kullanicitipi, string sorumluonayi)
+        public void SorumluEkle(string tckno, string kullaniciadi, string ad, string soyad, string mail, string sifre, string kullanicitipi, string sorumluonayi)
         {
             int kayitlimi = 0;
             komut = new SqlCommand();
             komut.Connection = Baglanti;
             Baglanti.Open();
-            komut.CommandText = "select KullaniciAdi, Ad, Soyad, Mail, Sifre, KullaniciTipi, Onay from KullaniciKayit where KullaniciAdi='" + kullaniciadi + "' and Ad='" + ad + "' and Soyad='" + soyad + "' and Mail='" + mail + "'and Sifre='" + sifre + "'and KullaniciTipi='" + kullanicitipi + "'and Onay='" + sorumluonayi + "'";
+            komut.CommandText = "select TckNo, KullaniciAdi, Ad, Soyad, Mail, Sifre, KullaniciTipi, Onay from KullaniciKayit where TckNo='" + tckno + "' and KullaniciAdi='" + kullaniciadi + "' and Ad='" + ad + "' and Soyad='" + soyad + "' and Mail='" + mail + "'and Sifre='" + sifre + "'and KullaniciTipi='" + kullanicitipi + "'and Onay='" + sorumluonayi + "'";
             dr = komut.ExecuteReader();
 
             if (dr.Read())//Kullanıcı bulunduysa kayıtlı demektir.
@@ -76,7 +76,7 @@ namespace SinavSistemi
                 komut.Connection = Baglanti;
                 Baglanti.Open();
 
-                komut.CommandText = "insert into KullaniciKayit(KullaniciAdi,Ad,Soyad,Mail,Sifre,KullaniciTipi,Onay) values('" + kullaniciadi + "','" + ad + "','" + soyad + "', '" + mail + "','" + sifre + "','" + kullanicitipi + "','" + sorumluonayi + "')";
+                komut.CommandText = "insert into KullaniciKayit(TckNo,KullaniciAdi,Ad,Soyad,Mail,Sifre,KullaniciTipi,Onay) values('" + tckno + "','" + kullaniciadi + "','" + ad + "','" + soyad + "', '" + mail + "','" + sifre + "','" + kullanicitipi + "','" + sorumluonayi + "')";
                 komut.ExecuteNonQuery();
                 Baglanti.Close();
                 System.Windows.Forms.MessageBox.Show("Kaydınız başarıyla yapıldı.");
@@ -84,3 +84,4 @@ namespace SinavSistemi
         }
     }
 }
+

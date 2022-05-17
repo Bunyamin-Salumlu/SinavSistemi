@@ -56,7 +56,7 @@ namespace SinavSistemi
             this.txtbxSinavBilgi.Location = new System.Drawing.Point(82, 234);
             this.txtbxSinavBilgi.Multiline = true;
             this.txtbxSinavBilgi.Name = "txtbxSinavBilgi";
-            this.txtbxSinavBilgi.Size = new System.Drawing.Size(369, 129);
+            this.txtbxSinavBilgi.Size = new System.Drawing.Size(346, 129);
             this.txtbxSinavBilgi.TabIndex = 0;
             this.txtbxSinavBilgi.Text = resources.GetString("txtbxSinavBilgi.Text");
             // 
@@ -188,9 +188,9 @@ namespace SinavSistemi
             // pctrbxALogo
             // 
             this.pctrbxALogo.Image = ((System.Drawing.Image)(resources.GetObject("pctrbxALogo.Image")));
-            this.pctrbxALogo.Location = new System.Drawing.Point(82, 50);
+            this.pctrbxALogo.Location = new System.Drawing.Point(122, 40);
             this.pctrbxALogo.Name = "pctrbxALogo";
-            this.pctrbxALogo.Size = new System.Drawing.Size(369, 156);
+            this.pctrbxALogo.Size = new System.Drawing.Size(263, 168);
             this.pctrbxALogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctrbxALogo.TabIndex = 3;
             this.pctrbxALogo.TabStop = false;

@@ -11,6 +11,7 @@ namespace SinavSistemi
     public class KullaniciEkleme
     {
         private int kullaniciId;
+        private string tckno;
         private string kullaniciadi;
         private string ad;
         private string soyad;
@@ -19,6 +20,7 @@ namespace SinavSistemi
         private string kullanicitipi;
 
         public int KullaniciID { get { return kullaniciId; } set { this.kullaniciId = value; } }
+        public string TckNo { get { return tckno; } set { this.tckno = value; } }
         public string KullaniciAdi { get { return kullaniciadi; } set { this.kullaniciadi = value; } }
         public string Ad { get { return ad; } set { this.ad = value; } }
         public string Soyad { get { return soyad; } set { this.soyad = value; } }
@@ -33,12 +35,12 @@ namespace SinavSistemi
         public void OgrenciKaydet()
         {
             KullaniciVeritabani vt = new KullaniciVeritabani(baglanti);
-            vt.OgrenciEkle(kullaniciadi, ad, soyad, mail, sifre, kullanicitipi, OgrenciOnayi);
+            vt.OgrenciEkle(tckno, kullaniciadi, ad, soyad, mail, sifre, kullanicitipi, OgrenciOnayi);
         }
         public void SorumluKaydet()
         {
             KullaniciVeritabani vt = new KullaniciVeritabani(baglanti);
-            vt.SorumluEkle(kullaniciadi, ad, soyad, mail, sifre, kullanicitipi, SorumluOnayi);
+            vt.SorumluEkle(tckno, kullaniciadi, ad, soyad, mail, sifre, kullanicitipi, SorumluOnayi);
         }
     }
 }
