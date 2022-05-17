@@ -88,6 +88,7 @@ namespace SinavSistemi
             // 
             // txtbxKBTckNo
             // 
+            this.txtbxKBTckNo.BackColor = System.Drawing.Color.Linen;
             this.txtbxKBTckNo.Location = new System.Drawing.Point(145, 18);
             this.txtbxKBTckNo.MaxLength = 11;
             this.txtbxKBTckNo.Name = "txtbxKBTckNo";
@@ -97,6 +98,7 @@ namespace SinavSistemi
             // 
             // txtbxKBAd
             // 
+            this.txtbxKBAd.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKBAd.Location = new System.Drawing.Point(151, 89);
             this.txtbxKBAd.Name = "txtbxKBAd";
             this.txtbxKBAd.Size = new System.Drawing.Size(132, 20);
@@ -104,6 +106,7 @@ namespace SinavSistemi
             // 
             // txtbxKBSoyad
             // 
+            this.txtbxKBSoyad.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKBSoyad.Location = new System.Drawing.Point(151, 124);
             this.txtbxKBSoyad.Name = "txtbxKBSoyad";
             this.txtbxKBSoyad.Size = new System.Drawing.Size(132, 20);
@@ -111,6 +114,7 @@ namespace SinavSistemi
             // 
             // txtbxKBMail
             // 
+            this.txtbxKBMail.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKBMail.Location = new System.Drawing.Point(151, 156);
             this.txtbxKBMail.Name = "txtbxKBMail";
             this.txtbxKBMail.Size = new System.Drawing.Size(132, 20);
@@ -118,6 +122,7 @@ namespace SinavSistemi
             // 
             // txtbxKBKullaniciTipi
             // 
+            this.txtbxKBKullaniciTipi.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKBKullaniciTipi.Location = new System.Drawing.Point(151, 190);
             this.txtbxKBKullaniciTipi.Name = "txtbxKBKullaniciTipi";
             this.txtbxKBKullaniciTipi.Size = new System.Drawing.Size(132, 20);
@@ -156,6 +161,7 @@ namespace SinavSistemi
             // 
             // txtbxKBKullaniciAdi
             // 
+            this.txtbxKBKullaniciAdi.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKBKullaniciAdi.Location = new System.Drawing.Point(151, 59);
             this.txtbxKBKullaniciAdi.Name = "txtbxKBKullaniciAdi";
             this.txtbxKBKullaniciAdi.Size = new System.Drawing.Size(132, 20);
@@ -165,7 +171,8 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 251);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(311, 233);
             this.Controls.Add(this.lblKBTckNo);
             this.Controls.Add(this.txtbxKBKullaniciAdi);
             this.Controls.Add(this.pctrbxKBGeri);

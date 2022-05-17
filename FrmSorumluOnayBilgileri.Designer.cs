@@ -39,6 +39,7 @@ namespace SinavSistemi
             // 
             this.dtGrdSorumluBilgileri.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtGrdSorumluBilgileri.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGrdSorumluBilgileri.GridColor = System.Drawing.SystemColors.InactiveCaption;
             this.dtGrdSorumluBilgileri.Location = new System.Drawing.Point(12, 12);
             this.dtGrdSorumluBilgileri.Name = "dtGrdSorumluBilgileri";
             this.dtGrdSorumluBilgileri.Size = new System.Drawing.Size(449, 172);
@@ -56,18 +57,20 @@ namespace SinavSistemi
             // 
             // btnSGuncelle
             // 
+            this.btnSGuncelle.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSGuncelle.Location = new System.Drawing.Point(186, 217);
             this.btnSGuncelle.Name = "btnSGuncelle";
-            this.btnSGuncelle.Size = new System.Drawing.Size(73, 34);
+            this.btnSGuncelle.Size = new System.Drawing.Size(82, 45);
             this.btnSGuncelle.TabIndex = 6;
             this.btnSGuncelle.Text = "Güncelle";
-            this.btnSGuncelle.UseVisualStyleBackColor = true;
+            this.btnSGuncelle.UseVisualStyleBackColor = false;
             this.btnSGuncelle.Click += new System.EventHandler(this.btnSGuncelle_Click);
             // 
             // FrmSorumluOnayBilgileri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(477, 284);
             this.Controls.Add(this.btnSGuncelle);
             this.Controls.Add(this.label1);

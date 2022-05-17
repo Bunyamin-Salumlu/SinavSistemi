@@ -58,11 +58,11 @@
     <Compile Include="FrmAdminSayfasi.Designer.cs">
       <DependentUpon>FrmAdminSayfasi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAnasayfa.cs">
       <SubType>Form</SubType>
@@ -147,8 +147,8 @@
     <EmbeddedResource Include="FrmAdminSayfasi.resx">
       <DependentUpon>FrmAdminSayfasi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAnasayfa.resx">
       <DependentUpon>FrmAnasayfa.cs</DependentUpon>

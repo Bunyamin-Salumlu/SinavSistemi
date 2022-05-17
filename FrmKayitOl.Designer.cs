@@ -49,62 +49,70 @@ namespace SinavSistemi
             // lblKAd
             // 
             this.lblKAd.AutoSize = true;
+            this.lblKAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKAd.Location = new System.Drawing.Point(59, 136);
             this.lblKAd.Name = "lblKAd";
-            this.lblKAd.Size = new System.Drawing.Size(26, 13);
+            this.lblKAd.Size = new System.Drawing.Size(31, 15);
             this.lblKAd.TabIndex = 0;
             this.lblKAd.Text = "Ad :";
             // 
             // lblKSifre
             // 
             this.lblKSifre.AutoSize = true;
+            this.lblKSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKSifre.Location = new System.Drawing.Point(51, 253);
             this.lblKSifre.Name = "lblKSifre";
-            this.lblKSifre.Size = new System.Drawing.Size(34, 13);
+            this.lblKSifre.Size = new System.Drawing.Size(45, 15);
             this.lblKSifre.TabIndex = 1;
             this.lblKSifre.Text = "Şifre :";
             // 
             // btnKKaydet
             // 
-            this.btnKKaydet.Location = new System.Drawing.Point(105, 286);
+            this.btnKKaydet.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnKKaydet.Location = new System.Drawing.Point(118, 289);
             this.btnKKaydet.Name = "btnKKaydet";
-            this.btnKKaydet.Size = new System.Drawing.Size(88, 44);
+            this.btnKKaydet.Size = new System.Drawing.Size(82, 45);
             this.btnKKaydet.TabIndex = 3;
             this.btnKKaydet.Text = "Kaydet";
-            this.btnKKaydet.UseVisualStyleBackColor = true;
+            this.btnKKaydet.UseVisualStyleBackColor = false;
             this.btnKKaydet.Click += new System.EventHandler(this.btnKKaydet_Click);
             // 
             // txtbxKAd
             // 
-            this.txtbxKAd.Location = new System.Drawing.Point(91, 133);
+            this.txtbxKAd.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKAd.Location = new System.Drawing.Point(118, 135);
             this.txtbxKAd.Name = "txtbxKAd";
             this.txtbxKAd.Size = new System.Drawing.Size(121, 20);
             this.txtbxKAd.TabIndex = 4;
             // 
             // txtbxKSifre
             // 
-            this.txtbxKSifre.Location = new System.Drawing.Point(91, 250);
+            this.txtbxKSifre.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKSifre.Location = new System.Drawing.Point(118, 252);
             this.txtbxKSifre.Name = "txtbxKSifre";
+            this.txtbxKSifre.PasswordChar = '●';
             this.txtbxKSifre.Size = new System.Drawing.Size(121, 20);
             this.txtbxKSifre.TabIndex = 5;
             // 
             // lblKGirisTipi
             // 
             this.lblKGirisTipi.AutoSize = true;
+            this.lblKGirisTipi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKGirisTipi.Location = new System.Drawing.Point(13, 22);
             this.lblKGirisTipi.Name = "lblKGirisTipi";
-            this.lblKGirisTipi.Size = new System.Drawing.Size(72, 13);
+            this.lblKGirisTipi.Size = new System.Drawing.Size(99, 15);
             this.lblKGirisTipi.TabIndex = 9;
             this.lblKGirisTipi.Text = "Kullanıcı Tipi :";
             // 
             // cmbxKKullaniciTipi
             // 
+            this.cmbxKKullaniciTipi.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxKKullaniciTipi.FormattingEnabled = true;
             this.cmbxKKullaniciTipi.Items.AddRange(new object[] {
             "Admin",
             "Sorumlu",
             "Ogrenci"});
-            this.cmbxKKullaniciTipi.Location = new System.Drawing.Point(91, 19);
+            this.cmbxKKullaniciTipi.Location = new System.Drawing.Point(118, 21);
             this.cmbxKKullaniciTipi.Name = "cmbxKKullaniciTipi";
             this.cmbxKKullaniciTipi.Size = new System.Drawing.Size(121, 21);
             this.cmbxKKullaniciTipi.TabIndex = 8;
@@ -112,15 +120,17 @@ namespace SinavSistemi
             // lblKSoyad
             // 
             this.lblKSoyad.AutoSize = true;
+            this.lblKSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKSoyad.Location = new System.Drawing.Point(42, 171);
             this.lblKSoyad.Name = "lblKSoyad";
-            this.lblKSoyad.Size = new System.Drawing.Size(43, 13);
+            this.lblKSoyad.Size = new System.Drawing.Size(54, 15);
             this.lblKSoyad.TabIndex = 10;
             this.lblKSoyad.Text = "Soyad :";
             // 
             // txtbxKSoyad
             // 
-            this.txtbxKSoyad.Location = new System.Drawing.Point(91, 168);
+            this.txtbxKSoyad.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKSoyad.Location = new System.Drawing.Point(118, 170);
             this.txtbxKSoyad.Name = "txtbxKSoyad";
             this.txtbxKSoyad.Size = new System.Drawing.Size(121, 20);
             this.txtbxKSoyad.TabIndex = 11;
@@ -128,15 +138,17 @@ namespace SinavSistemi
             // lblKKullaniciAdi
             // 
             this.lblKKullaniciAdi.AutoSize = true;
+            this.lblKKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKKullaniciAdi.Location = new System.Drawing.Point(15, 101);
             this.lblKKullaniciAdi.Name = "lblKKullaniciAdi";
-            this.lblKKullaniciAdi.Size = new System.Drawing.Size(70, 13);
+            this.lblKKullaniciAdi.Size = new System.Drawing.Size(95, 15);
             this.lblKKullaniciAdi.TabIndex = 12;
             this.lblKKullaniciAdi.Text = "Kullanıcı Adı :";
             // 
             // txtbxKKullaniciAdi
             // 
-            this.txtbxKKullaniciAdi.Location = new System.Drawing.Point(91, 98);
+            this.txtbxKKullaniciAdi.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKKullaniciAdi.Location = new System.Drawing.Point(118, 100);
             this.txtbxKKullaniciAdi.Name = "txtbxKKullaniciAdi";
             this.txtbxKKullaniciAdi.Size = new System.Drawing.Size(121, 20);
             this.txtbxKKullaniciAdi.TabIndex = 13;
@@ -144,15 +156,17 @@ namespace SinavSistemi
             // lblKMail
             // 
             this.lblKMail.AutoSize = true;
+            this.lblKMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKMail.Location = new System.Drawing.Point(53, 212);
             this.lblKMail.Name = "lblKMail";
-            this.lblKMail.Size = new System.Drawing.Size(32, 13);
+            this.lblKMail.Size = new System.Drawing.Size(43, 15);
             this.lblKMail.TabIndex = 14;
             this.lblKMail.Text = "Mail :";
             // 
             // txtbxKMail
             // 
-            this.txtbxKMail.Location = new System.Drawing.Point(91, 209);
+            this.txtbxKMail.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKMail.Location = new System.Drawing.Point(118, 211);
             this.txtbxKMail.Name = "txtbxKMail";
             this.txtbxKMail.Size = new System.Drawing.Size(121, 20);
             this.txtbxKMail.TabIndex = 15;
@@ -160,15 +174,17 @@ namespace SinavSistemi
             // lblKTckNo
             // 
             this.lblKTckNo.AutoSize = true;
+            this.lblKTckNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKTckNo.Location = new System.Drawing.Point(12, 58);
             this.lblKTckNo.Name = "lblKTckNo";
-            this.lblKTckNo.Size = new System.Drawing.Size(73, 13);
+            this.lblKTckNo.Size = new System.Drawing.Size(96, 15);
             this.lblKTckNo.TabIndex = 16;
             this.lblKTckNo.Text = "Tc Kimlik No :";
             // 
             // txtbxKTckNo
             // 
-            this.txtbxKTckNo.Location = new System.Drawing.Point(91, 55);
+            this.txtbxKTckNo.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxKTckNo.Location = new System.Drawing.Point(118, 57);
             this.txtbxKTckNo.Name = "txtbxKTckNo";
             this.txtbxKTckNo.Size = new System.Drawing.Size(121, 20);
             this.txtbxKTckNo.TabIndex = 17;
@@ -177,7 +193,8 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 345);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(277, 350);
             this.Controls.Add(this.txtbxKTckNo);
             this.Controls.Add(this.lblKTckNo);
             this.Controls.Add(this.txtbxKMail);
@@ -195,7 +212,7 @@ namespace SinavSistemi
             this.Controls.Add(this.lblKAd);
             this.Name = "FrmKayitOl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "KayitOl";
+            this.Text = "Kayıt Ol";
             this.ResumeLayout(false);
             this.PerformLayout();
 

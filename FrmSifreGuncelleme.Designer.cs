@@ -45,7 +45,7 @@ namespace SinavSistemi
             // 
             this.lblSGKullaniciAdi.AutoSize = true;
             this.lblSGKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSGKullaniciAdi.Location = new System.Drawing.Point(85, 30);
+            this.lblSGKullaniciAdi.Location = new System.Drawing.Point(75, 29);
             this.lblSGKullaniciAdi.Name = "lblSGKullaniciAdi";
             this.lblSGKullaniciAdi.Size = new System.Drawing.Size(85, 13);
             this.lblSGKullaniciAdi.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace SinavSistemi
             // 
             this.lblSGSifre.AutoSize = true;
             this.lblSGSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSGSifre.Location = new System.Drawing.Point(129, 65);
+            this.lblSGSifre.Location = new System.Drawing.Point(119, 64);
             this.lblSGSifre.Name = "lblSGSifre";
             this.lblSGSifre.Size = new System.Drawing.Size(41, 13);
             this.lblSGSifre.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace SinavSistemi
             // 
             this.lblSGSifreTekrar.AutoSize = true;
             this.lblSGSifreTekrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSGSifreTekrar.Location = new System.Drawing.Point(88, 100);
+            this.lblSGSifreTekrar.Location = new System.Drawing.Point(78, 99);
             this.lblSGSifreTekrar.Name = "lblSGSifreTekrar";
             this.lblSGSifreTekrar.Size = new System.Drawing.Size(82, 13);
             this.lblSGSifreTekrar.TabIndex = 2;
@@ -73,14 +73,16 @@ namespace SinavSistemi
             // 
             // txtbxSGKullaniciAdi
             // 
-            this.txtbxSGKullaniciAdi.Location = new System.Drawing.Point(176, 27);
+            this.txtbxSGKullaniciAdi.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSGKullaniciAdi.Location = new System.Drawing.Point(166, 26);
             this.txtbxSGKullaniciAdi.Name = "txtbxSGKullaniciAdi";
             this.txtbxSGKullaniciAdi.Size = new System.Drawing.Size(126, 20);
             this.txtbxSGKullaniciAdi.TabIndex = 3;
             // 
             // txtbxSGSifre
             // 
-            this.txtbxSGSifre.Location = new System.Drawing.Point(176, 62);
+            this.txtbxSGSifre.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSGSifre.Location = new System.Drawing.Point(166, 61);
             this.txtbxSGSifre.Name = "txtbxSGSifre";
             this.txtbxSGSifre.PasswordChar = '●';
             this.txtbxSGSifre.Size = new System.Drawing.Size(126, 20);
@@ -88,7 +90,8 @@ namespace SinavSistemi
             // 
             // txtbxSGSifreTekrar
             // 
-            this.txtbxSGSifreTekrar.Location = new System.Drawing.Point(176, 97);
+            this.txtbxSGSifreTekrar.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSGSifreTekrar.Location = new System.Drawing.Point(166, 96);
             this.txtbxSGSifreTekrar.Name = "txtbxSGSifreTekrar";
             this.txtbxSGSifreTekrar.PasswordChar = '●';
             this.txtbxSGSifreTekrar.Size = new System.Drawing.Size(126, 20);
@@ -96,13 +99,14 @@ namespace SinavSistemi
             // 
             // btnSGGuncelle
             // 
+            this.btnSGGuncelle.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSGGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSGGuncelle.Location = new System.Drawing.Point(176, 134);
+            this.btnSGGuncelle.Location = new System.Drawing.Point(166, 133);
             this.btnSGGuncelle.Name = "btnSGGuncelle";
-            this.btnSGGuncelle.Size = new System.Drawing.Size(95, 33);
+            this.btnSGGuncelle.Size = new System.Drawing.Size(82, 45);
             this.btnSGGuncelle.TabIndex = 6;
             this.btnSGGuncelle.Text = "Güncelle";
-            this.btnSGGuncelle.UseVisualStyleBackColor = true;
+            this.btnSGGuncelle.UseVisualStyleBackColor = false;
             this.btnSGGuncelle.Click += new System.EventHandler(this.btnSGGuncelle_Click);
             // 
             // pctrbxSGGeri
@@ -120,7 +124,8 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 186);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(335, 197);
             this.Controls.Add(this.pctrbxSGGeri);
             this.Controls.Add(this.btnSGGuncelle);
             this.Controls.Add(this.txtbxSGSifreTekrar);

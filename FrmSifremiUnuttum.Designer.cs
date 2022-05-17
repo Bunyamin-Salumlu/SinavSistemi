@@ -48,6 +48,7 @@
             // 
             // txtSMail
             // 
+            this.txtSMail.BackColor = System.Drawing.SystemColors.Info;
             this.txtSMail.Location = new System.Drawing.Point(130, 42);
             this.txtSMail.Margin = new System.Windows.Forms.Padding(2);
             this.txtSMail.Name = "txtSMail";
@@ -56,13 +57,14 @@
             // 
             // btnSMailGonder
             // 
+            this.btnSMailGonder.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSMailGonder.Location = new System.Drawing.Point(130, 80);
             this.btnSMailGonder.Margin = new System.Windows.Forms.Padding(2);
             this.btnSMailGonder.Name = "btnSMailGonder";
-            this.btnSMailGonder.Size = new System.Drawing.Size(105, 41);
+            this.btnSMailGonder.Size = new System.Drawing.Size(82, 45);
             this.btnSMailGonder.TabIndex = 2;
             this.btnSMailGonder.Text = "Mail Gönder";
-            this.btnSMailGonder.UseVisualStyleBackColor = true;
+            this.btnSMailGonder.UseVisualStyleBackColor = false;
             this.btnSMailGonder.Click += new System.EventHandler(this.btnMailGonder_Click);
             // 
             // lblSBilgi
@@ -77,6 +79,7 @@
             // 
             // progressBar1
             // 
+            this.progressBar1.BackColor = System.Drawing.Color.RoyalBlue;
             this.progressBar1.Location = new System.Drawing.Point(130, 150);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
@@ -87,7 +90,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 242);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(347, 237);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.lblSBilgi);
             this.Controls.Add(this.btnSMailGonder);

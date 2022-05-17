@@ -38,7 +38,6 @@ namespace SinavSistemi
             this.rdbtnB = new System.Windows.Forms.RadioButton();
             this.rdbtnC = new System.Windows.Forms.RadioButton();
             this.rdbtnD = new System.Windows.Forms.RadioButton();
-            this.rdbtnBos = new System.Windows.Forms.RadioButton();
             this.lblSure = new System.Windows.Forms.Label();
             this.btnBitir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxSinavGeri)).BeginInit();
@@ -58,98 +57,92 @@ namespace SinavSistemi
             // 
             // pctrbxSinavEkrani
             // 
-            this.pctrbxSinavEkrani.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pctrbxSinavEkrani.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.pctrbxSinavEkrani.Location = new System.Drawing.Point(53, 77);
             this.pctrbxSinavEkrani.Name = "pctrbxSinavEkrani";
-            this.pctrbxSinavEkrani.Size = new System.Drawing.Size(474, 205);
+            this.pctrbxSinavEkrani.Size = new System.Drawing.Size(443, 205);
             this.pctrbxSinavEkrani.TabIndex = 3;
             this.pctrbxSinavEkrani.TabStop = false;
             // 
             // btnOnceki
             // 
+            this.btnOnceki.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnOnceki.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnOnceki.Location = new System.Drawing.Point(53, 288);
             this.btnOnceki.Name = "btnOnceki";
             this.btnOnceki.Size = new System.Drawing.Size(89, 33);
             this.btnOnceki.TabIndex = 4;
             this.btnOnceki.Text = "ÖNCEKİ";
-            this.btnOnceki.UseVisualStyleBackColor = true;
+            this.btnOnceki.UseVisualStyleBackColor = false;
             // 
             // btnSonraki
             // 
+            this.btnSonraki.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSonraki.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSonraki.Location = new System.Drawing.Point(438, 288);
+            this.btnSonraki.Location = new System.Drawing.Point(407, 288);
             this.btnSonraki.Name = "btnSonraki";
             this.btnSonraki.Size = new System.Drawing.Size(89, 33);
             this.btnSonraki.TabIndex = 6;
             this.btnSonraki.Text = "SONRAKİ";
-            this.btnSonraki.UseVisualStyleBackColor = true;
+            this.btnSonraki.UseVisualStyleBackColor = false;
             // 
             // rdbtnA
             // 
             this.rdbtnA.AutoSize = true;
+            this.rdbtnA.BackColor = System.Drawing.Color.Thistle;
             this.rdbtnA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdbtnA.Location = new System.Drawing.Point(158, 294);
+            this.rdbtnA.Location = new System.Drawing.Point(163, 294);
             this.rdbtnA.Name = "rdbtnA";
             this.rdbtnA.Size = new System.Drawing.Size(36, 20);
             this.rdbtnA.TabIndex = 7;
             this.rdbtnA.TabStop = true;
             this.rdbtnA.Text = "A";
-            this.rdbtnA.UseVisualStyleBackColor = true;
+            this.rdbtnA.UseVisualStyleBackColor = false;
             // 
             // rdbtnB
             // 
             this.rdbtnB.AutoSize = true;
+            this.rdbtnB.BackColor = System.Drawing.Color.Thistle;
             this.rdbtnB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdbtnB.Location = new System.Drawing.Point(210, 294);
+            this.rdbtnB.Location = new System.Drawing.Point(225, 294);
             this.rdbtnB.Name = "rdbtnB";
             this.rdbtnB.Size = new System.Drawing.Size(36, 20);
             this.rdbtnB.TabIndex = 8;
             this.rdbtnB.TabStop = true;
             this.rdbtnB.Text = "B";
-            this.rdbtnB.UseVisualStyleBackColor = true;
+            this.rdbtnB.UseVisualStyleBackColor = false;
             // 
             // rdbtnC
             // 
             this.rdbtnC.AutoSize = true;
+            this.rdbtnC.BackColor = System.Drawing.Color.Thistle;
             this.rdbtnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdbtnC.Location = new System.Drawing.Point(262, 294);
+            this.rdbtnC.Location = new System.Drawing.Point(287, 294);
             this.rdbtnC.Name = "rdbtnC";
             this.rdbtnC.Size = new System.Drawing.Size(36, 20);
             this.rdbtnC.TabIndex = 9;
             this.rdbtnC.TabStop = true;
             this.rdbtnC.Text = "C";
-            this.rdbtnC.UseVisualStyleBackColor = true;
+            this.rdbtnC.UseVisualStyleBackColor = false;
             // 
             // rdbtnD
             // 
             this.rdbtnD.AutoSize = true;
+            this.rdbtnD.BackColor = System.Drawing.Color.Thistle;
             this.rdbtnD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdbtnD.Location = new System.Drawing.Point(314, 294);
+            this.rdbtnD.Location = new System.Drawing.Point(349, 294);
             this.rdbtnD.Name = "rdbtnD";
             this.rdbtnD.Size = new System.Drawing.Size(37, 20);
             this.rdbtnD.TabIndex = 10;
             this.rdbtnD.TabStop = true;
             this.rdbtnD.Text = "D";
-            this.rdbtnD.UseVisualStyleBackColor = true;
-            // 
-            // rdbtnBos
-            // 
-            this.rdbtnBos.AutoSize = true;
-            this.rdbtnBos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdbtnBos.Location = new System.Drawing.Point(367, 294);
-            this.rdbtnBos.Name = "rdbtnBos";
-            this.rdbtnBos.Size = new System.Drawing.Size(57, 20);
-            this.rdbtnBos.TabIndex = 11;
-            this.rdbtnBos.TabStop = true;
-            this.rdbtnBos.Text = "BOŞ";
-            this.rdbtnBos.UseVisualStyleBackColor = true;
+            this.rdbtnD.UseVisualStyleBackColor = false;
             // 
             // lblSure
             // 
             this.lblSure.AutoSize = true;
             this.lblSure.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSure.Location = new System.Drawing.Point(455, 44);
+            this.lblSure.Location = new System.Drawing.Point(424, 45);
             this.lblSure.Name = "lblSure";
             this.lblSure.Size = new System.Drawing.Size(72, 18);
             this.lblSure.TabIndex = 12;
@@ -157,22 +150,23 @@ namespace SinavSistemi
             // 
             // btnBitir
             // 
+            this.btnBitir.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBitir.Location = new System.Drawing.Point(495, 343);
+            this.btnBitir.Location = new System.Drawing.Point(422, 343);
             this.btnBitir.Name = "btnBitir";
             this.btnBitir.Size = new System.Drawing.Size(74, 45);
             this.btnBitir.TabIndex = 13;
             this.btnBitir.Text = "BİTİR";
-            this.btnBitir.UseVisualStyleBackColor = true;
+            this.btnBitir.UseVisualStyleBackColor = false;
             // 
             // FrmSinav
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 400);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(539, 401);
             this.Controls.Add(this.btnBitir);
             this.Controls.Add(this.lblSure);
-            this.Controls.Add(this.rdbtnBos);
             this.Controls.Add(this.rdbtnD);
             this.Controls.Add(this.rdbtnC);
             this.Controls.Add(this.rdbtnB);
@@ -201,7 +195,6 @@ namespace SinavSistemi
         private System.Windows.Forms.RadioButton rdbtnB;
         private System.Windows.Forms.RadioButton rdbtnC;
         private System.Windows.Forms.RadioButton rdbtnD;
-        private System.Windows.Forms.RadioButton rdbtnBos;
         private System.Windows.Forms.Label lblSure;
         private System.Windows.Forms.Button btnBitir;
     }

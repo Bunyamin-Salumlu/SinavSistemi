@@ -86,36 +86,44 @@ namespace SinavSistemi
             // 
             // txtbxABTckNo
             // 
-            this.txtbxABTckNo.Location = new System.Drawing.Point(139, 20);
-            this.txtbxABTckNo.MaxLength = 5;
+            this.txtbxABTckNo.BackColor = System.Drawing.Color.Linen;
+            this.txtbxABTckNo.Location = new System.Drawing.Point(132, 19);
+            this.txtbxABTckNo.MaxLength = 11;
             this.txtbxABTckNo.Name = "txtbxABTckNo";
-            this.txtbxABTckNo.Size = new System.Drawing.Size(138, 20);
+            this.txtbxABTckNo.Size = new System.Drawing.Size(125, 20);
             this.txtbxABTckNo.TabIndex = 4;
             this.txtbxABTckNo.TextChanged += new System.EventHandler(this.txtbxABTckNo_TextChanged_1);
             // 
             // txtbxABAd
             // 
+            this.txtbxABAd.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxABAd.Location = new System.Drawing.Point(119, 105);
             this.txtbxABAd.Name = "txtbxABAd";
+            this.txtbxABAd.ReadOnly = true;
             this.txtbxABAd.Size = new System.Drawing.Size(138, 20);
             this.txtbxABAd.TabIndex = 5;
             // 
             // txtbxABSoyad
             // 
+            this.txtbxABSoyad.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxABSoyad.Location = new System.Drawing.Point(119, 141);
             this.txtbxABSoyad.Name = "txtbxABSoyad";
+            this.txtbxABSoyad.ReadOnly = true;
             this.txtbxABSoyad.Size = new System.Drawing.Size(138, 20);
             this.txtbxABSoyad.TabIndex = 6;
             // 
             // txtbxABMail
             // 
+            this.txtbxABMail.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxABMail.Location = new System.Drawing.Point(119, 176);
             this.txtbxABMail.Name = "txtbxABMail";
+            this.txtbxABMail.ReadOnly = true;
             this.txtbxABMail.Size = new System.Drawing.Size(138, 20);
             this.txtbxABMail.TabIndex = 7;
             // 
             // pctrbxABGeri
             // 
+            this.pctrbxABGeri.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pctrbxABGeri.Image = ((System.Drawing.Image)(resources.GetObject("pctrbxABGeri.Image")));
             this.pctrbxABGeri.Location = new System.Drawing.Point(12, 12);
             this.pctrbxABGeri.Name = "pctrbxABGeri";
@@ -129,7 +137,7 @@ namespace SinavSistemi
             // 
             this.lblABTckNo.AutoSize = true;
             this.lblABTckNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblABTckNo.Location = new System.Drawing.Point(78, 21);
+            this.lblABTckNo.Location = new System.Drawing.Point(71, 20);
             this.lblABTckNo.Name = "lblABTckNo";
             this.lblABTckNo.Size = new System.Drawing.Size(55, 15);
             this.lblABTckNo.TabIndex = 12;
@@ -137,8 +145,10 @@ namespace SinavSistemi
             // 
             // txtbxABKullaniciAdi
             // 
+            this.txtbxABKullaniciAdi.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxABKullaniciAdi.Location = new System.Drawing.Point(119, 70);
             this.txtbxABKullaniciAdi.Name = "txtbxABKullaniciAdi";
+            this.txtbxABKullaniciAdi.ReadOnly = true;
             this.txtbxABKullaniciAdi.Size = new System.Drawing.Size(138, 20);
             this.txtbxABKullaniciAdi.TabIndex = 13;
             // 
@@ -146,6 +156,7 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(296, 222);
             this.Controls.Add(this.txtbxABKullaniciAdi);
             this.Controls.Add(this.lblABTckNo);

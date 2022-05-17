@@ -40,7 +40,6 @@ namespace SinavSistemi
             this.txtbxKonuAdi = new System.Windows.Forms.TextBox();
             this.lblSinifDuzeyi = new System.Windows.Forms.Label();
             this.btnSEkle = new System.Windows.Forms.Button();
-            this.btnSTemizle = new System.Windows.Forms.Button();
             this.cmbxSinifDuzeyi = new System.Windows.Forms.ComboBox();
             this.cmbxDersinAdi = new System.Windows.Forms.ComboBox();
             this.cmbxUniteNo = new System.Windows.Forms.ComboBox();
@@ -116,6 +115,7 @@ namespace SinavSistemi
             // 
             // txtbxKodNo
             // 
+            this.txtbxKodNo.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKodNo.Location = new System.Drawing.Point(133, 235);
             this.txtbxKodNo.Name = "txtbxKodNo";
             this.txtbxKodNo.Size = new System.Drawing.Size(119, 20);
@@ -123,6 +123,7 @@ namespace SinavSistemi
             // 
             // txtbxSoruNo
             // 
+            this.txtbxSoruNo.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxSoruNo.Location = new System.Drawing.Point(133, 199);
             this.txtbxSoruNo.Name = "txtbxSoruNo";
             this.txtbxSoruNo.Size = new System.Drawing.Size(119, 20);
@@ -130,6 +131,7 @@ namespace SinavSistemi
             // 
             // txtbxKonuAdi
             // 
+            this.txtbxKonuAdi.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxKonuAdi.Location = new System.Drawing.Point(133, 163);
             this.txtbxKonuAdi.Name = "txtbxKonuAdi";
             this.txtbxKonuAdi.Size = new System.Drawing.Size(119, 20);
@@ -147,27 +149,19 @@ namespace SinavSistemi
             // 
             // btnSEkle
             // 
+            this.btnSEkle.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnSEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSEkle.Location = new System.Drawing.Point(243, 308);
+            this.btnSEkle.Location = new System.Drawing.Point(317, 307);
             this.btnSEkle.Name = "btnSEkle";
-            this.btnSEkle.Size = new System.Drawing.Size(81, 35);
+            this.btnSEkle.Size = new System.Drawing.Size(82, 45);
             this.btnSEkle.TabIndex = 29;
             this.btnSEkle.Text = "Ekle";
-            this.btnSEkle.UseVisualStyleBackColor = true;
+            this.btnSEkle.UseVisualStyleBackColor = false;
             this.btnSEkle.Click += new System.EventHandler(this.btnSEkle_Click);
-            // 
-            // btnSTemizle
-            // 
-            this.btnSTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSTemizle.Location = new System.Drawing.Point(354, 308);
-            this.btnSTemizle.Name = "btnSTemizle";
-            this.btnSTemizle.Size = new System.Drawing.Size(81, 35);
-            this.btnSTemizle.TabIndex = 30;
-            this.btnSTemizle.Text = "Temizle";
-            this.btnSTemizle.UseVisualStyleBackColor = true;
             // 
             // cmbxSinifDuzeyi
             // 
+            this.cmbxSinifDuzeyi.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxSinifDuzeyi.FormattingEnabled = true;
             this.cmbxSinifDuzeyi.Items.AddRange(new object[] {
             "8"});
@@ -178,6 +172,7 @@ namespace SinavSistemi
             // 
             // cmbxDersinAdi
             // 
+            this.cmbxDersinAdi.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxDersinAdi.FormattingEnabled = true;
             this.cmbxDersinAdi.Items.AddRange(new object[] {
             "Fen Bilimleri"});
@@ -188,6 +183,7 @@ namespace SinavSistemi
             // 
             // cmbxUniteNo
             // 
+            this.cmbxUniteNo.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxUniteNo.FormattingEnabled = true;
             this.cmbxUniteNo.Items.AddRange(new object[] {
             "1",
@@ -204,6 +200,7 @@ namespace SinavSistemi
             // 
             // cmbxUniteAdi
             // 
+            this.cmbxUniteAdi.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxUniteAdi.FormattingEnabled = true;
             this.cmbxUniteAdi.Items.AddRange(new object[] {
             "MEVSİMLER VE İKLİM"});
@@ -214,7 +211,7 @@ namespace SinavSistemi
             // 
             // pctrbxSoruResmiEkle
             // 
-            this.pctrbxSoruResmiEkle.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pctrbxSoruResmiEkle.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.pctrbxSoruResmiEkle.Location = new System.Drawing.Point(410, 34);
             this.pctrbxSoruResmiEkle.Name = "pctrbxSoruResmiEkle";
             this.pctrbxSoruResmiEkle.Size = new System.Drawing.Size(191, 126);
@@ -234,6 +231,7 @@ namespace SinavSistemi
             // 
             // txtbxAciklama
             // 
+            this.txtbxAciklama.BackColor = System.Drawing.SystemColors.Info;
             this.txtbxAciklama.Location = new System.Drawing.Point(410, 189);
             this.txtbxAciklama.Multiline = true;
             this.txtbxAciklama.Name = "txtbxAciklama";
@@ -262,6 +260,7 @@ namespace SinavSistemi
             // 
             // cmbxDogruCevap
             // 
+            this.cmbxDogruCevap.BackColor = System.Drawing.SystemColors.Info;
             this.cmbxDogruCevap.FormattingEnabled = true;
             this.cmbxDogruCevap.Items.AddRange(new object[] {
             "A",
@@ -277,6 +276,7 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(759, 400);
             this.Controls.Add(this.cmbxDogruCevap);
             this.Controls.Add(this.lblDogruCevap);
@@ -288,7 +288,6 @@ namespace SinavSistemi
             this.Controls.Add(this.cmbxUniteNo);
             this.Controls.Add(this.cmbxDersinAdi);
             this.Controls.Add(this.cmbxSinifDuzeyi);
-            this.Controls.Add(this.btnSTemizle);
             this.Controls.Add(this.btnSEkle);
             this.Controls.Add(this.lblKodNo);
             this.Controls.Add(this.lblSoruNo);
@@ -322,7 +321,6 @@ namespace SinavSistemi
         private System.Windows.Forms.TextBox txtbxKonuAdi;
         private System.Windows.Forms.Label lblSinifDuzeyi;
         private System.Windows.Forms.Button btnSEkle;
-        private System.Windows.Forms.Button btnSTemizle;
         private System.Windows.Forms.ComboBox cmbxSinifDuzeyi;
         private System.Windows.Forms.ComboBox cmbxDersinAdi;
         private System.Windows.Forms.ComboBox cmbxUniteNo;

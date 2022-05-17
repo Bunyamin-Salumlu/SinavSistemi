@@ -59,3 +59,12 @@ D:\YzmOdev\SinavSistemi\obj\Debug\SinavSistemi.exe
 D:\YzmOdev\SinavSistemi\obj\Debug\SinavSistemi.pdb
 D:\YzmOdev\SinavSistemi\obj\Debug\SinavSistemi.FrmAdminBilgisi.resources
 D:\YzmOdev\SinavSistemi\obj\Debug\SinavSistemi.FrmSorumluBilgisi.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmAdminBilgisi.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmAnasayfa.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmIstatistik.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmKullaniciBilgisi.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSifreGuncelleme.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSinav.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmKonuDagilimi.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSorumluBilgisi.resources
+C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSorumluOnayBilgileri.resources

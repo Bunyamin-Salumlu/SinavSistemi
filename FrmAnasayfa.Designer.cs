@@ -51,6 +51,7 @@ namespace SinavSistemi
             // 
             // txtbxSinavBilgi
             // 
+            this.txtbxSinavBilgi.BackColor = System.Drawing.Color.MintCream;
             this.txtbxSinavBilgi.Enabled = false;
             this.txtbxSinavBilgi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtbxSinavBilgi.Location = new System.Drawing.Point(82, 234);
@@ -88,6 +89,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmAnasayfa
             // 
+            this.toolStrpMnItmAnasayfa.BackColor = System.Drawing.Color.CornflowerBlue;
             this.toolStrpMnItmAnasayfa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.toolStrpMnItmAnasayfa.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmAnasayfa.Image")));
             this.toolStrpMnItmAnasayfa.Name = "toolStrpMnItmAnasayfa";
@@ -97,6 +99,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmSinav
             // 
+            this.toolStrpMnItmSinav.BackColor = System.Drawing.Color.CornflowerBlue;
             this.toolStrpMnItmSinav.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStrpMnItmSinavGir,
             this.toolStrpMnItmIstatistik,
@@ -109,6 +112,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmSinavGir
             // 
+            this.toolStrpMnItmSinavGir.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmSinavGir.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmSinavGir.Image")));
             this.toolStrpMnItmSinavGir.Name = "toolStrpMnItmSinavGir";
             this.toolStrpMnItmSinavGir.Size = new System.Drawing.Size(180, 22);
@@ -117,6 +121,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmIstatistik
             // 
+            this.toolStrpMnItmIstatistik.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmIstatistik.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmIstatistik.Image")));
             this.toolStrpMnItmIstatistik.Name = "toolStrpMnItmIstatistik";
             this.toolStrpMnItmIstatistik.Size = new System.Drawing.Size(180, 22);
@@ -125,6 +130,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmSBilgi
             // 
+            this.toolStrpMnItmSBilgi.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmSBilgi.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmSBilgi.Image")));
             this.toolStrpMnItmSBilgi.Name = "toolStrpMnItmSBilgi";
             this.toolStrpMnItmSBilgi.Size = new System.Drawing.Size(180, 22);
@@ -133,6 +139,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmProfilim
             // 
+            this.toolStrpMnItmProfilim.BackColor = System.Drawing.Color.CornflowerBlue;
             this.toolStrpMnItmProfilim.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStrpMnItmBilgilerim});
             this.toolStrpMnItmProfilim.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -143,6 +150,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmBilgilerim
             // 
+            this.toolStrpMnItmBilgilerim.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmBilgilerim.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmBilgilerim.Image")));
             this.toolStrpMnItmBilgilerim.Name = "toolStrpMnItmBilgilerim";
             this.toolStrpMnItmBilgilerim.Size = new System.Drawing.Size(180, 22);
@@ -151,6 +159,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmSiralama
             // 
+            this.toolStrpMnItmSiralama.BackColor = System.Drawing.Color.CornflowerBlue;
             this.toolStrpMnItmSiralama.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.toolStrpMnItmSiralama.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmSiralama.Image")));
             this.toolStrpMnItmSiralama.Name = "toolStrpMnItmSiralama";
@@ -160,6 +169,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmAyarlar
             // 
+            this.toolStrpMnItmAyarlar.BackColor = System.Drawing.Color.CornflowerBlue;
             this.toolStrpMnItmAyarlar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStrpMnItmSifreDegistir,
             this.toolStrpMnItmCikis});
@@ -171,6 +181,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmSifreDegistir
             // 
+            this.toolStrpMnItmSifreDegistir.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmSifreDegistir.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmSifreDegistir.Image")));
             this.toolStrpMnItmSifreDegistir.Name = "toolStrpMnItmSifreDegistir";
             this.toolStrpMnItmSifreDegistir.Size = new System.Drawing.Size(180, 22);
@@ -179,6 +190,7 @@ namespace SinavSistemi
             // 
             // toolStrpMnItmCikis
             // 
+            this.toolStrpMnItmCikis.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrpMnItmCikis.Image = ((System.Drawing.Image)(resources.GetObject("toolStrpMnItmCikis.Image")));
             this.toolStrpMnItmCikis.Name = "toolStrpMnItmCikis";
             this.toolStrpMnItmCikis.Size = new System.Drawing.Size(180, 22);
@@ -199,6 +211,7 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(528, 382);
             this.Controls.Add(this.pctrbxALogo);
             this.Controls.Add(this.lblSinavKural);

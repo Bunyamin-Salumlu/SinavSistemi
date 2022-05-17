@@ -46,7 +46,8 @@ namespace SinavSistemi
             // 
             // txtbxSBKullaniciAdi
             // 
-            this.txtbxSBKullaniciAdi.Location = new System.Drawing.Point(119, 70);
+            this.txtbxSBKullaniciAdi.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSBKullaniciAdi.Location = new System.Drawing.Point(119, 63);
             this.txtbxSBKullaniciAdi.Name = "txtbxSBKullaniciAdi";
             this.txtbxSBKullaniciAdi.Size = new System.Drawing.Size(138, 20);
             this.txtbxSBKullaniciAdi.TabIndex = 24;
@@ -55,7 +56,7 @@ namespace SinavSistemi
             // 
             this.lblSBTckNo.AutoSize = true;
             this.lblSBTckNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSBTckNo.Location = new System.Drawing.Point(78, 21);
+            this.lblSBTckNo.Location = new System.Drawing.Point(69, 20);
             this.lblSBTckNo.Name = "lblSBTckNo";
             this.lblSBTckNo.Size = new System.Drawing.Size(55, 15);
             this.lblSBTckNo.TabIndex = 23;
@@ -63,31 +64,35 @@ namespace SinavSistemi
             // 
             // txtbxSBMail
             // 
-            this.txtbxSBMail.Location = new System.Drawing.Point(119, 176);
+            this.txtbxSBMail.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSBMail.Location = new System.Drawing.Point(119, 169);
             this.txtbxSBMail.Name = "txtbxSBMail";
             this.txtbxSBMail.Size = new System.Drawing.Size(138, 20);
             this.txtbxSBMail.TabIndex = 21;
             // 
             // txtbxSBSoyad
             // 
-            this.txtbxSBSoyad.Location = new System.Drawing.Point(119, 141);
+            this.txtbxSBSoyad.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSBSoyad.Location = new System.Drawing.Point(119, 134);
             this.txtbxSBSoyad.Name = "txtbxSBSoyad";
             this.txtbxSBSoyad.Size = new System.Drawing.Size(138, 20);
             this.txtbxSBSoyad.TabIndex = 20;
             // 
             // txtbxSBAd
             // 
-            this.txtbxSBAd.Location = new System.Drawing.Point(119, 105);
+            this.txtbxSBAd.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbxSBAd.Location = new System.Drawing.Point(119, 98);
             this.txtbxSBAd.Name = "txtbxSBAd";
             this.txtbxSBAd.Size = new System.Drawing.Size(138, 20);
             this.txtbxSBAd.TabIndex = 19;
             // 
             // txtbxSBTckNo
             // 
-            this.txtbxSBTckNo.Location = new System.Drawing.Point(139, 20);
-            this.txtbxSBTckNo.MaxLength = 5;
+            this.txtbxSBTckNo.BackColor = System.Drawing.Color.Linen;
+            this.txtbxSBTckNo.Location = new System.Drawing.Point(130, 19);
+            this.txtbxSBTckNo.MaxLength = 11;
             this.txtbxSBTckNo.Name = "txtbxSBTckNo";
-            this.txtbxSBTckNo.Size = new System.Drawing.Size(138, 20);
+            this.txtbxSBTckNo.Size = new System.Drawing.Size(127, 20);
             this.txtbxSBTckNo.TabIndex = 18;
             this.txtbxSBTckNo.TextChanged += new System.EventHandler(this.txtbxSBTckNo_TextChanged);
             // 
@@ -95,7 +100,7 @@ namespace SinavSistemi
             // 
             this.lblSBMail.AutoSize = true;
             this.lblSBMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSBMail.Location = new System.Drawing.Point(47, 177);
+            this.lblSBMail.Location = new System.Drawing.Point(47, 170);
             this.lblSBMail.Name = "lblSBMail";
             this.lblSBMail.Size = new System.Drawing.Size(66, 15);
             this.lblSBMail.TabIndex = 17;
@@ -105,7 +110,7 @@ namespace SinavSistemi
             // 
             this.lblSBSoyad.AutoSize = true;
             this.lblSBSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSBSoyad.Location = new System.Drawing.Point(36, 142);
+            this.lblSBSoyad.Location = new System.Drawing.Point(36, 135);
             this.lblSBSoyad.Name = "lblSBSoyad";
             this.lblSBSoyad.Size = new System.Drawing.Size(77, 15);
             this.lblSBSoyad.TabIndex = 16;
@@ -115,7 +120,7 @@ namespace SinavSistemi
             // 
             this.lblSBAd.AutoSize = true;
             this.lblSBAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSBAd.Location = new System.Drawing.Point(59, 106);
+            this.lblSBAd.Location = new System.Drawing.Point(59, 99);
             this.lblSBAd.Name = "lblSBAd";
             this.lblSBAd.Size = new System.Drawing.Size(54, 15);
             this.lblSBAd.TabIndex = 15;
@@ -125,7 +130,7 @@ namespace SinavSistemi
             // 
             this.lblSBKullaniciAdi.AutoSize = true;
             this.lblSBKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSBKullaniciAdi.Location = new System.Drawing.Point(18, 71);
+            this.lblSBKullaniciAdi.Location = new System.Drawing.Point(18, 64);
             this.lblSBKullaniciAdi.Name = "lblSBKullaniciAdi";
             this.lblSBKullaniciAdi.Size = new System.Drawing.Size(95, 15);
             this.lblSBKullaniciAdi.TabIndex = 14;
@@ -146,7 +151,8 @@ namespace SinavSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(319, 222);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(281, 214);
             this.Controls.Add(this.txtbxSBKullaniciAdi);
             this.Controls.Add(this.lblSBTckNo);
             this.Controls.Add(this.pctrbxSBGeri);
