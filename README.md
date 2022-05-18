@@ -32,6 +32,10 @@ Visual Studio 2022 ile hazirlanmistir ve Visual Studio 2022'i indirip kullanabil
 * Depoyu klonlayin
    ```sh
    git clone https://github.com/Bunyamin-Salumlu/SinavSistemi.git
+# Ekip Üyeleri
+Bünyamin Şalumlu
+Mehmet Peker
+Hava Gündoğan
    ```
 
 ## Kullanim
