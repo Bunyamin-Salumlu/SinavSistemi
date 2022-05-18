@@ -23,7 +23,7 @@ namespace SinavSistemi
         SqlCommandBuilder komut;
         private void FrmSorumluOnayBilgileri_Load(object sender, EventArgs e)
         {
-            baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+            baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
             baglanti.Open();
             da = new SqlDataAdapter("Select KullaniciID, Ad, Soyad, KullaniciTipi, Onay from KullaniciKayit WHERE KullaniciTipi='Sorumlu'", baglanti);
             komut = new SqlCommandBuilder(da);

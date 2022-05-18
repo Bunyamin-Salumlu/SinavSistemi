@@ -17,6 +17,7 @@ namespace SinavSistemi
         SqlConnection Baglanti;
         SqlCommand komut;
         SqlDataReader dr;
+        public static int KullaniciId = -1;
         public FrmGiris()
         {
             InitializeComponent();
@@ -28,7 +29,7 @@ namespace SinavSistemi
             string sifre = txtbxSifre.Text;
             string kullanicitipi = cmbxKullaniciTipi.Text;
             string onay = "True";
-            Baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+            Baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
             komut = new SqlCommand();
             Baglanti.Open();
             komut.Connection = Baglanti;
@@ -36,6 +37,7 @@ namespace SinavSistemi
             dr = komut.ExecuteReader();
             if (dr.Read())
             {
+                KullaniciId = dr.GetInt32(0);
                 if (kullanicitipi == "Admin")
                 {
                     FrmAdminSayfasi adminSayfasi = new FrmAdminSayfasi();

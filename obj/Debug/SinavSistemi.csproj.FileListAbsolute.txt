@@ -68,3 +68,30 @@ C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\De
 C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmKonuDagilimi.resources
 C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSorumluBilgisi.resources
 C:\Users\New Bilgisayar\Downloads\SinavSistemi-master\SinavSistemi-master\obj\Debug\SinavSistemi.FrmSorumluOnayBilgileri.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\bin\Debug\SinavSistemi.mdf
+C:\Users\Mehmet\source\repos\SinavSistemi\bin\Debug\SinavSistemi_log.ldf
+C:\Users\Mehmet\source\repos\SinavSistemi\bin\Debug\SinavSistemi.exe.config
+C:\Users\Mehmet\source\repos\SinavSistemi\bin\Debug\SinavSistemi.exe
+C:\Users\Mehmet\source\repos\SinavSistemi\bin\Debug\SinavSistemi.pdb
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.csproj.AssemblyReference.cache
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmAdminBilgisi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmAdminSayfasi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmGiris.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmAnasayfa.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmIstatistik.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmKayitOl.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmKullaniciBilgisi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSifreGuncelleme.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSinav.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSoruEkle.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmKonuDagilimi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSorumluBilgisi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSorumluOnayBilgileri.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.Properties.Resources.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSifremiUnuttum.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.FrmSorumluSayfasi.resources
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.csproj.GenerateResource.cache
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.exe
+C:\Users\Mehmet\source\repos\SinavSistemi\obj\Debug\SinavSistemi.pdb

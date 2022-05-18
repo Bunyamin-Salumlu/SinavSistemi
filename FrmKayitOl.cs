@@ -29,6 +29,8 @@ namespace SinavSistemi
             kullaniciEkleme.Sifre = txtbxKSifre.Text;
             kullaniciEkleme.KullaniciTipi = cmbxKKullaniciTipi.Text;
 
+
+            
             if (cmbxKKullaniciTipi.Text == "Admin")
             {
                 MessageBox.Show("Birden fazla Admin kaydı yapılamaz.! ");

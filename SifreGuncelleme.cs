@@ -14,7 +14,7 @@ namespace SinavSistemi
         SqlDataReader dr;
         public SifreGuncelleme()
         {
-            Baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+            Baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
         }
         public bool Sifreyiguncelle(string kullaniciadi, string sifre)
         {

@@ -17,7 +17,7 @@ namespace SinavSistemi
         public KullaniciVeritabani(SqlConnection baglanti)
         {
             this.Baglanti = baglanti;
-            Baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+            Baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
         }
 
         public void OgrenciEkle(string tckno, string kullaniciadi, string ad, string soyad, string mail, string sifre, string kullanicitipi, string ogrencionayi)

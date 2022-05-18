@@ -64,7 +64,7 @@ namespace SinavSistemi
                 byte[] ImageByteArray = File.ReadAllBytes(pctrbxSoruResmiEkle.ImageLocation.ToString());
                 //ImageConverter ımageConverter = new ImageConverter();
                 //byte[] ImageByteArray= (System.Byte[])ımageConverter.ConvertTo(pctrBxSoruGörseliEkle.ImageLocation.ToString(),Type.GetType("System.Byte[]"));
-                using (SqlConnection connection = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI"))
+                using (SqlConnection connection = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString))
                 {
                     using (SqlCommand command = new SqlCommand())
                     {

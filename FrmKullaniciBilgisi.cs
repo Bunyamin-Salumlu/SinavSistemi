@@ -30,7 +30,7 @@ namespace SinavSistemi
         private void txtbxKBTckNo_TextChanged(object sender, EventArgs e)
         {
             if (txtbxKBTckNo.Text == "") foreach (Control item in Controls) if (item is TextBox) item.Text = "";
-            baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+            baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
             baglanti.Open();
             SqlCommand komut = new SqlCommand("select * from KullaniciKayit where KullaniciTipi='Ogrenci' AND TckNo like '" + txtbxKBTckNo.Text + "'", baglanti);
             SqlDataReader dr = komut.ExecuteReader();

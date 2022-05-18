@@ -55,7 +55,7 @@ namespace SinavSistemi
           
             try
             {
-                SqlConnection baglanti = new SqlConnection("server=.; Initial Catalog=SinavSistemi;Integrated Security=SSPI");
+                SqlConnection baglanti = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sinavsistemidb"].ConnectionString);
                 if (baglanti.State == ConnectionState.Closed)
                 {
                     baglanti.Open();
