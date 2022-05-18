@@ -32,14 +32,15 @@ Visual Studio 2022 ile hazirlanmistir ve Visual Studio 2022'i indirip kullanabil
 * Depoyu klonlayin
    ```sh
    git clone https://github.com/Bunyamin-Salumlu/SinavSistemi.git
-# Ekip Üyeleri
-Bünyamin Şalumlu
-Mehmet Peker
-Hava Gündoğan
-   ```
+
 
 ## Kullanim
 * İlk önce proje dosyası içerisindeki .sln uzantılı dosyayı açmalısınız.
 * Dosyalardan SinavSistemi database'ini veri tabanınıza eklemelisiniz.
-* Veritabanı yolunuzu kendi bilgisayarınızın yolunu vermelisiniz.
+* Veritabanı yolunuzu kendi bilgisayarınızın yolunu vermelisiniz
+### Ekip Üyeleri
+Bünyamin Şalumlu
+Mehmet Peker
+Hava Gündoğan
+   ```
 
